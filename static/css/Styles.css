@@ -1,0 +1,59 @@
+﻿body {
+	margin-top: 50px;
+	margin-bottom: 50px;
+	background: none;
+}
+
+/*---------------
+  Home page CSS
+  -------------- */
+.full {
+  background: url("../images/Header_image2.png") no-repeat center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  z-index: -1;
+  background-color: #009EDD;
+}
+.full >.col-md-7{
+	opacity: 0.25;
+}
+.full h1{
+	color:#FFE066;
+}
+.full p{
+	color:#E6ECEF;
+	opacity: 1;
+}
+
+
+/*---------------------------
+   customizing the navigation
+   -------------------------- */
+
+.navbar{
+	background-color: #FFE066;
+}
+
+.baasha-nav{
+	background-color: #009EDD;
+	/*background-color: #E6ECEF;*/
+	border-top: 1px solid #007ddd;
+	box-shadow: 2px -5px 20px 12px  #007ddd;
+}
+.baasha-nav a{
+	/*color:#FF5B0A;*/
+	color:#50514F;
+}
+.navbar-brand{
+	font-size: 2.5em;
+	color:#E6ECEF;
+}
+
+/* ---------------------
+    Buttons
+  -------------------*/
+  .ba_btn{
+  	background-color: #FF9A16;
+  }
