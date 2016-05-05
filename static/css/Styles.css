@@ -8,17 +8,16 @@
   Home page CSS
   -------------- */
 .full {
-  background: url("../images/Header_image2.png") no-repeat center fixed; 
+  background: url("../images/Baasha_Banner2.png") no-repeat center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
   z-index: -1;
   background-color: #009EDD;
+  filter:alpha(opacity=25);/* For IE8 and earlier */ 
 }
-.full >.col-md-7{
-	opacity: 0.25;
-}
+
 .full h1{
 	color:#FFE066;
 }
@@ -40,7 +39,7 @@
 	background-color: #009EDD;
 	/*background-color: #E6ECEF;*/
 	border-top: 1px solid #007ddd;
-	box-shadow: 2px -5px 20px 12px  #007ddd;
+	box-shadow: 1px -1px 20px 1px  #0075C4;
 }
 .baasha-nav a{
 	/*color:#FF5B0A;*/
@@ -57,3 +56,23 @@
   .ba_btn{
   	background-color: #FF9A16;
   }
+
+ /*--------------------
+    CSS for div Containers
+    -------------------  */
+.language-box-orange{
+	background-color: #FF9A16;
+	width:500px;
+	max-height:200px;
+	overflow: hidden;
+	box-shadow: 2px 2px 2px 4px  #FF7A49;
+	margin-top: 15px;
+}
+.language-box-blue{
+	background-color: #009EDD;
+	margin-top: 15px;
+	width:500px;
+	overflow: hidden;
+	max-height-height:200px;
+	box-shadow: 2px 2px 2px 4px  #0075C4;
+}

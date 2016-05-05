@@ -1,0 +1,7 @@
+
+
+git remote add po https://github.com/lsitaraman/parentorbit.git
+git remote -v
+git fetch po
+git branch po/registrationchanges
+git checkout -b po/registrationchanges
