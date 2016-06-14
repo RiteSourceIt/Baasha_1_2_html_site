@@ -1,3 +1,4 @@
+
 Hindi Ascii code references:
 
 http://www.anirdesh.com/gujarati/Hindi-Unicode.php
@@ -6,14 +7,12 @@ http://www.hindiconverter.com/
 
 http://www.avashy.com/hindiscripttutor.htm
 
+KAnnada reference:
+http://symbolcodes.tlt.psu.edu/bylanguage/kannadachart.html
 
 Site Color palate:
 
 https://coolors.co/app/50514f-f25f5c-ffe066-247ba0-70c1b3
-https://coolors.co/app/50514f-ff5b0a-ffe066-004982-3c4c39
 
-dark-blue: 004982
-orange:FF9A16
-page_blue:009EDD
-half-white:E6ECEF
-coffee-brown:50514F
+orange_shades
+https://coolors.co/app/334431-ef8732-e6af4b-e05038-f2cbbc
