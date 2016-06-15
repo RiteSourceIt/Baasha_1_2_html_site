@@ -50,45 +50,42 @@
 	</div></div>
     <div class="row">
     	<div class="col-sm-6">
-		<div class="col-sm-12">
-        <div class="col-sm-3">
+        <div class="col-sm-2">
             <h1><a href="#" onClick="PlayAudio(Letter_Writting[0],0); return false;">&#2309; (A)</a></h1>
 		</div>
-		<div class="col-sm-3">
+		<div class="col-sm-2">
             <h1> <a href="#" onClick="PlayAudio(Letter_Writting[1],0); return false;">&#2310; (Aa)</a> </h1> 
         </div>
-		<div class="col-sm-3">
+		<div class="col-sm-2">
             <h1> <a href="#" onClick="PlayAudio(Letter_Writting[2],0); return false;">&#2311; (e)</a></h1>
 		</div>
-		<div class="col-sm-3">
+		<div class="col-sm-2">
             <h1> <a href="#" onClick="PlayAudio(Letter_Writting[3],0); return false;">&#2312; (Ee)</a></h1>
 		</div>
-		</div><div class="col-sm-12">
-		<div class="col-sm-3">
+		<div class="col-sm-2">
             <h1><a href="#" onClick="PlayAudio(Letter_Writting[4],0); return false;"> &#2313;(u) </a></h1>
 		</div>
-		
-		<div class="col-sm-3">
+		<div class="col-sm-2">
             <h1> <a href="#" onClick="PlayAudio(Letter_Writting[5],0); return false;">&#2314;(Uu)</a> </h1>
 		</div>
-		<div class="col-sm-3">
+		<div class="col-sm-2">
             <h1><a href="#" onClick="PlayAudio(Letter_Writting[6],0); return false;">&#2319; (Ye)</a></h1>
 		</div>
-		<div class="col-sm-3">
-            <h1> <a href="#" onClick="PlayAudio(Letter_Writting[7],0); return false;">&#2320; (I)</a></h1>
-		</div></div><div class="col-sm-12">
-		<div class="col-sm-3">
-            <h1> <a href="#" onClick="PlayAudio(Letter_Writting[8],0); return false;">&#2323; (o)</a></h1>
+		<div class="col-sm-2">
+            <h1> &#2320; (YAe)</h1>
 		</div>
-		<div class="col-sm-3">
-            <h1> <a href="#" onClick="PlayAudio(Letter_Writting[9],0); return false;">&#2324; (AW)</a></h1>
+		<div class="col-sm-2">
+            <h1> &#2323; (o)</h1>
 		</div>
-		<div class="col-sm-3">
-            <h1> <a href="#" onClick="PlayAudio(Letter_Writting[10],0); return false;">&#2309;&#2306; (AHK)</a></h1>
+		<div class="col-sm-2">
+            <h1> &#2324; (Oo)</h1>
 		</div>
-		<div class="col-sm-3">
-            <h1> <a href="#" onClick="PlayAudio(Letter_Writting[11],0); return false;">&#2309;&#2307; (AHA)</a></h1>
-		</div></div>
+		<div class="col-sm-2">
+            <h1> <a href="#" onClick="PlayAudio(Letter_Writting[7],0); return false;">&#2321; (AU)</a></h1>
+		</div>
+		<div class="col-sm-2">
+            <h1> &#2315; (Kru)</h1>
+		</div>
 		</div><!-- col-sm-6-->
      <div class="col-sm-6">
    	
@@ -111,20 +108,16 @@
 	<script src="../../static/js/load_header_footer_1.js"></script>
 	<script>
 	var Letter_Writting=new Array();
-	Letter_Writting[0]="../../static/audio/vowel_sounds/Hindi_Vowels/A.mp3";
-	Letter_Writting[1]="../../static/audio/vowel_sounds/Hindi_Vowels/AA.mp3";
-	Letter_Writting[2]="../../static/audio/vowel_sounds/Hindi_Vowels/E.mp3";
-	Letter_Writting[3]="../../static/audio/vowel_sounds/Hindi_Vowels/EE.mp3";
-	Letter_Writting[4]="../../static/audio/vowel_sounds/Hindi_Vowels/U.mp3";
-	Letter_Writting[5]="../../static/audio/vowel_sounds/Hindi_Vowels/UU.mp3";
-	Letter_Writting[6]="../../static/audio/vowel_sounds/Hindi_Vowels/YE.mp3";
-	Letter_Writting[7]="../../static/audio/vowel_sounds/Hindi_Vowels/I.mp3";
-	Letter_Writting[8]="../../static/audio/vowel_sounds/Hindi_Vowels/O.mp3";
-	Letter_Writting[9]="../../static/audio/vowel_sounds/Hindi_Vowels/AW.mp3";
-	Letter_Writting[10]="../../static/audio/vowel_sounds/Hindi_Vowels/AHK.mp3";
-	Letter_Writting[11]="../../static/audio/vowel_sounds/Hindi_Vowels/AHA.mp3";
-	
-	function PlayAudio(audioURL,ind) {
+	Letter_Writting[0]="../../static/audio/A.mp3";
+	Letter_Writting[1]="../../static/audio/AA.mp3";
+	Letter_Writting[2]="../../static/audio/E.mp3";
+	Letter_Writting[3]="../../static/audio/EE.mp3";
+	Letter_Writting[4]="../../static/audio/U.mp3";
+	Letter_Writting[5]="../../static/audio/UU.mp3";
+	Letter_Writting[6]="../../static/audio/YE.mp3";
+	Letter_Writting[7]="../../static/audio/I.mp3";
+	Letter_Writting[7]="../../static/audio/aHa.mp3";
+function PlayAudio(audioURL,ind) {
             // Check for audio element support.
             if (window.HTMLAudioElement) {
                 try {
