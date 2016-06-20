@@ -1,96 +1,7 @@
 
-<!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-    <title>Tamil Lessons/Vowel sounds.</title>
-	 <!-- Bootstrap Core CSS -->
-    <link href="../../static/css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- Custom CSS -->
-
-    <link href="../../static/css/Styles.css" rel="stylesheet">
-    
-	<!--Google Ads section
-<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script> -->
-<!-- respBaasha -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-2659907188979729"
-     data-ad-slot="9653000314"
-     data-ad-format="auto"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-<script type="text/javascript">
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-35833416-1', 'baasha.net');
-  ga('send', 'pageview');
-</script>
-<!--Google Ads section END-->
-
-<!--<script type="text/javascript" src="../../static/js/jquery.min.1.7.js"></script>-->
-<!-- jQuery -->
-<script   src="https://code.jquery.com/jquery-2.2.3.js"   integrity="sha256-laXWtGydpwqJ8JA+X9x2miwmaiKhn8tVmOVEigRNtP4="   crossorigin="anonymous"></script>
-<script type="text/javascript" src="../../static/js/modernizr.2.5.3.min.js"></script>
-<script type="text/javascript" src="../../static/js/lib/hash.js"></script>
-
-</head>
-<body onload="load_header();LoadImage();return false;">
-	<div class="container" id="pageheader">
-	
-	</div>
-	<div class="container-fluid">
-	<div class="row grad_orange">
-		<h1> Tamil e-books -  &#2997;&#3006;&#2980;&#3021;&#2980;&#3009; (Duck) </h1>
-	</div>
-	<div class="col-sm-12">
-		<div class="col-offset-2 col-sm-12">
-		
-	</div>
-	<div class="col-sm-6">
-		<p><audio controls id="Player" style="display:none;"> <source src="../../static/audio/A.mp3" type="audio/mp3"> 
-		HTML5 audio not supported </audio></p>
-		<br>
-	</div>
-</div>
-<div class="col-sm-12 storyboard">
-<div id="canvas">
-
-<div class="magazine-viewport">
-	<div class="container">
-		<div class="magazine">
-			<!-- Next button -->
-			<div ignore="1" class="next-button"></div>
-			<!-- Previous button -->
-			<div ignore="1" class="previous-button"></div>
-		</div>
-	</div>
-</div>
-
-
-</div>
-</div>
-<script type="text/javascript">
 
 function loadApp() {
 
-	//book pages
-		Story_img[1]="../../static/images/Tamil/tamil_books/Duck/Duck_0.png";
-		Story_img[2]="../../static/images/Tamil/tamil_books/Duck/Duck_1.png";
-		Story_img[3]="../../static/images/Tamil/tamil_books/Duck/Duck_2.png";
-		Story_img[4]="../../static/images/Tamil/tamil_books/Duck/Duck_3.png";
-		Story_img[5]="../../static/images/Tamil/tamil_books/Duck/Duck_4.png";
-		Story_img[6]="../../static/images/Tamil/tamil_books/Duck/Duck_5.png";
-		Story_img[7]="../../static/images/Tamil/tamil_books/Duck/Duck_6.png";
-		Story_img[8]="../../static/images/Tamil/tamil_books/Duck/Duck_7.png";
-		Story_img[9]="../../static/images/Tamil/tamil_books/Duck/Duck_8.png";
-
-
-	
  	$('#canvas').fadeIn(1000);
 
  	var flipbook = $('.magazine');
@@ -136,7 +47,7 @@ function loadApp() {
 
 			// The number of pages
 
-			pages: 9,
+			pages: 15,
 
 			// Events
 
@@ -470,7 +381,7 @@ function loadApp() {
 
 
 // Load the HTML4 version if there's not CSS transform
-
+/*
 yepnope({
 	test : Modernizr.csstransforms,
 	yep: ['../../static/js/lib/turn.js'],
@@ -478,10 +389,4 @@ yepnope({
 	both: ['../../static/js/lib/zoom.min.js', '../../static/js/magazine.js', '../../static/css/magazine.css'],
 	complete: loadApp
 });
-
-</script>
-    <!-- Bootstrap Core JavaScript -->
-    <script src="../../static/js/bootstrap.min.js"></script>
-	<script src="../../static/js/load_header_footer_1.js"></script>
-</body>
-</html>
+*/
